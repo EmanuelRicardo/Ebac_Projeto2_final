@@ -1,9 +1,34 @@
 body{
-    background-color: #e5e619;
+    background-color: yellow;
 }
 
 .container {
-    background-color: yellow;
+    background-color: #e5e619;
+    text-align: center;
+}
+
+img {
+    width: 60px;
+}
+
+form {
+    padding-bottom: 30px;
+}
+
+input {
+    margin-right: 15px;
+}
+
+header {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    padding-left: 40%;
+}
+
+thead td {
+    font-weight: bold;
+}
+
+button {
+    background-color: #e5e619;
 }
