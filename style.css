@@ -4,11 +4,13 @@ body{
 
 .container {
     background-color: #e5e619;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 img {
     width: 60px;
+    padding-right: 10px;
 }
 
 form {
@@ -17,12 +19,12 @@ form {
 
 input {
     margin-right: 15px;
+    width: 150px;
+    height: 30px;
 }
-
 header {
     display: flex;
     align-items: center;
-    padding-left: 40%;
 }
 
 thead td {
@@ -31,4 +33,11 @@ thead td {
 
 button {
     background-color: #e5e619;
+    width: 150px;
+    height: 36px;
 }
+
+td {
+    padding-right: 150px;
+}
+
