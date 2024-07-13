@@ -1,5 +1,6 @@
 body{
     background-color: yellow;
+    margin: 0;
 }
 
 .container {
@@ -27,8 +28,8 @@ header {
     align-items: center;
 }
 
-thead td {
-    font-weight: bold;
+thead th {
+    padding-right: 150px;
 }
 
 button {
@@ -37,7 +38,6 @@ button {
     height: 36px;
 }
 
-td {
-    padding-right: 150px;
+tfoot tr td {
+    font-weight: bold;
 }
-
