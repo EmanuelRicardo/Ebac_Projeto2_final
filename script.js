@@ -2,6 +2,7 @@ var nome_contato = window.document.getElementById ('nome_contato')
 var numero_contato = window.document.getElementById ('numero_contato')
 var linhas = '' 
 var total_contatos = ''
+var escrever_total_contatos = window.document.getElementById ('total_contatos_add')
 
 
 
