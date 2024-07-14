@@ -1,6 +1,9 @@
 var nome_contato = window.document.getElementById ('nome_contato')
 var numero_contato = window.document.getElementById ('numero_contato')
 var linhas = '' 
+var total_contatos = ''
+
+
 
 function Add_numero(event){
     event.preventDefault();
@@ -13,4 +16,8 @@ function Add_numero(event){
 
     var corpo_tabela = window.document.getElementById ('corpo_tabela')
     corpo_tabela.innerHTML = linhas
+    
+    nome_contato.value = ''
+    numero_contato.value = ''
 }
+
