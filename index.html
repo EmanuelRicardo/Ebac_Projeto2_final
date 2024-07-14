@@ -17,7 +17,7 @@
                 <form action="">
                     <input type="text" placeholder="Nome do contato" id="nome_contato">
                     <input type="number" placeholder="Numero de telefone" id="numero_contato">
-                    <button onclick="Add_numero()">Adicionar</button>
+                    <button onclick="Add_numero(event)">Adicionar</button>
                 </form>
             </section>
             <table>
@@ -27,16 +27,13 @@
                         <th>Numero do contato:</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td>Contato</td>
-                        <td>Numero</td>
-                    </tr>
+                <tbody id="corpo_tabela">
+
                 </tbody>
                 <tfoot>
                     <tr>
                         <td>Total de numeros adcionados: </td>
-                        <td>---</td>
+                        <td id="total_contatos_add">---</td>
                     </tr>
                 </tfoot>
             </table>
